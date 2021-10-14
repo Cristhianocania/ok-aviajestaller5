@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detalle"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imCam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/camarita" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#0B0101"
+        android:hint="@string/tvCity"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp" />
+</FrameLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Taller5</string>
+    <string name="app_name2">Detalle</string>
+
+
+
+    <string name="editTextUser">Usuario</string>
+    <string name="editTextPass">Password</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="tvRegistrartit">CREAR UNA NUEVA CUENTA</string>
+    <string name="tvEditTit">EDITAR CUENTA</string>
+    <string name="ItvEditTit">Bienvenido Usuario</string>
+    <string name="ItvEditFoto">Suba una foto</string>
+    <string name="tvMostrarTit">USUARIOS REGISTRADOS</string>
+
+    <string name="etRegNombre">Nombre</string>
+    <string name="etRegApellido">Apellido</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnEditar">Actualizar</string>
+    <string name="btnEditarI">Editar</string>
+    <string name="btnEliminarI">Eliminar</string>
+    <string name="btnMostrarI">Mostrar</string>
+    <string name="btnSalirI">Salir</string>
+    <string name="tvImagenesGuardas">Nombre archivo</string>
+    <string name="tvLat">LATITUD</string>
+    <string name="tvLongi">LONGITUD</string>
+    <string name="tvCity">CIUDAD</string>
+    <string name="Menucompart">compartir</string>
+    <string name="Descripcion">Escriba algo...</string>
+    <string name="GAleriaBtn">Galeria</string>
+
+
+    <string name="title_activity_detalle_fotos">DetalleFotos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

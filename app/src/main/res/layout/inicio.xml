@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnEditarI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="@string/btnEditarI"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnEliminarI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:text="@string/btnEliminarI"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="@string/GAleriaBtn"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSalirI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff34"
+            android:text="@string/btnSalirI"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ILabelTit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_weight="5"
+        android:autofillHints=""
+        android:gravity="center"
+        android:text="@string/ItvEditTit" />
+
+
+    <ImageView
+        android:id="@+id/imageInicio"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_weight="70"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/paisajito" />
+
+    <EditText
+        android:id="@+id/etDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:enabled="true"
+        android:hint="@string/Descripcion"
+        android:inputType="text"
+        android:visibility="visible" />
+
+
+
+    <TextView
+        android:id="@+id/tvLatitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/tvLat" />
+    <TextView
+        android:id="@+id/tvLongitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/tvLongi" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+
+        android:text="@string/tvCity" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ILabelTit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints=""
+            android:text="@string/ItvEditFoto" />
+
+        <ImageButton
+            android:id="@+id/IBtnFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:autofillHints=""
+            android:contentDescription="@string/todo"
+            android:src="@drawable/camarita"
+            android:text="@string/ItvEditFoto" />
+
+
+        <ImageButton
+            android:id="@+id/ibcompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints=""
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_share"
+            android:text="@string/Menucompart"
+            android:visibility="visible"
+            tools:targetApi="jelly_bean_mr2" />
+
+        <ImageButton
+            android:id="@+id/IBtnContinuar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/continuar"
+            android:text="@string/ItvEditFoto" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
